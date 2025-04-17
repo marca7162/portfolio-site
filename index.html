@@ -8,17 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-    const toggleBtn = document.getElementById("toggle-dark");
-    toggleBtn.addEventListener("click", () => {
-        document.body.classList.toggle("dark");
-        document.querySelector("header").classList.toggle("dark");
 
-        document.querySelectorAll(".project").forEach(el => {
-            el.classList.toggle("dark");
-        });
-    });
-</script>
 
 <body>
     <header>
@@ -34,7 +24,6 @@
                     </p>
             </div>
             </div>
-            <button id="toggle-dark">Toggle Dark Mode</button>
     </header>
 
     <section id="about">
@@ -55,7 +44,24 @@
             evolving, and always looking to build something that matters.
         </p>
     </section>
-
+    <section id="learning">
+        <h2> I'm Learning...</h2>
+        <ul>
+            <li> Python: Getting a refresher on Python in CSCI 1133</li>
+            <li> Working on HTML and CSS by building this website</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>HTML (In progesss) </li>
+            <li>CSS (In progesss) </li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Git (In progress) </li>
+        </ul>
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
