@@ -39,3 +39,25 @@ section {
     object-fit: cover;
     border-radius: 50%;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headshot {
+        margin: 0 auto 1rem auto;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .project {
+        margin: 1rem 0;
+    }
+}
