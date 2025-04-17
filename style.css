@@ -22,3 +22,13 @@ section {
     padding: 1rem;
     margin-top: 1rem;
 }
+.headshot {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem auto;
+    float: left;
+    margin-right: 1rem;
+}
