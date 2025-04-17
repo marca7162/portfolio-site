@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: sans-serif;
     margin: 0;
@@ -83,4 +86,34 @@ section {
 
 .resume-button:hover {
     background-color: #666;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #444;
+    z-index: 999;
+    padding: 0.75rem 0;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #61dafb;
 }
