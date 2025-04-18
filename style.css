@@ -66,6 +66,12 @@ section {
     }
 }
 
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 #learning ul {
     list-style-type: none;
     padding-left: 0;
@@ -90,25 +96,27 @@ section {
 nav {
     position: sticky;
     top: 0;
-    background-color: #7a0019;
+    background-color: #000;
     z-index: 999;
     padding: 0.75rem 0;
-    text-align: center;
 }
 
 .navbar {
+    display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 .navbar li {
-    display: inline;
-    margin: 0 1rem;
+    margin: 0;
 }
 
 .navbar a {
-    color: #9d7600;
+    color: #7a0019;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
