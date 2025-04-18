@@ -88,38 +88,44 @@ section {
 .resume-button:hover {
     background-color: #666;
 }
-nav.navbar {
+nav {
     position: sticky;
     top: 0;
     background-color: #7a0019;
-    padding: 1rem;
     z-index: 999;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+    padding: 0.75rem 0;
     text-align: center;
 }
 
-nav.navbar a {
-    color: #ffcc33;
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #9d7600;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1rem;
     transition: color 0.3s ease;
 }
 
-nav.navbar a:hover {
-    color: #61dafb;
+.navbar a:hover {
+    color: #eee;
 }
 /* 📱 Mobile: stack links vertically */
 @media (max-width: 600px) {
     nav.navbar {
-            flex-direction: column;
+        flex-direction: column;
         gap: 0.75rem;
-        }
-        
-        nav.navbar a {
-            font-size: 1.1rem;
+    }
     
+    nav.navbar a {
+        font-size: 1.1rem;
+    }
 }
