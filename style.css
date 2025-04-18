@@ -96,7 +96,7 @@ section {
 nav {
     position: sticky;
     top: 0;
-    background-color: #000;
+    background-color: #7a0019;
     z-index: 999;
     padding: 0.75rem 0;
 }
@@ -111,17 +111,14 @@ nav {
     padding: 0;
 }
 
-.navbar li {
-    margin: 0;
-}
 
 .navbar a {
-    color: #7a0019;
+    color: #eee;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-    color: #61dafb;
+    color: #9d7600;
 }
